@@ -8,10 +8,12 @@ FrostOrthoをご購入いただきありがとうございます！
 - Discordサポートサーバー：[FrostOrthoSupport](https://discord.gg/swPe2Q3npJ)
 
 ## バージョン
+- 2026年6月22日以降にご購入いただいた方  
+[v1.2.0(現main)](https://github.com/imo00o/zmk-config-FrostOrtho)  
+- 2026年5月～6月中旬にご購入いただいた方  
+[v1.1.0](https://github.com/imo00o/zmk-config-FrostOrtho/tree/v1.1.0)  
 - キーケット以前にご購入いただいた方  
-[v1.0.0](https://github.com/imo00o/zmk-config-FrostOrtho/tree/v1.0.0)
-- 2026年5月以降にご購入いただいた方  
-[v1.1.0(現main)](https://github.com/imo00o/zmk-config-FrostOrtho)
+[v1.0.0](https://github.com/imo00o/zmk-config-FrostOrtho/tree/v1.0.0)  
 
 ## ユーザーガイド
 - 組立済み品をご購入の方  
@@ -71,10 +73,13 @@ FrostOrthoをご購入いただきありがとうございます！
 - shakupanさん製の手染め球  
     FrostOrtho付属のものより少し軽めです。muinoは白しか用意できないので、違う色を使いたい方はこちら！
   - [shakupan　19mmトラックボール](https://shakupan.booth.pm/items/7667439)
-- beekeebさんの市販球  
-    市販球って言い方でいいんでしょうか、、？トラックボール用にちゃんと作られているボールで、19mmでは初めてのはず、ありがたいです。  
-    赤系色は動作確認できていますが、ダークグレーは正常に動作できていません。。どうにか使用できないか調整中です。
+- beekeeb  
+    重量違いで2種類あります。どんどん色が増えていて本当に感謝。  
   - [beekeeb　19mm トラックボール用交換ボール](https://shop.beekeeb.jp/products/19mm-trackball)
+  - [beekeeb　19mm トラックボール（超軽量）](https://shop.beekeeb.jp/products/19mm-light-trackball)
+- Keychron  
+    クラファン中のKeychron Orca echoと一緒に19mmトラックボールも！たのしみ。    
+  - [トラックボール　19mm](https://costory.jp/cf-published-sku-groups/1955012598?srsltid=AfmBOorlMondrVQx9Lj0JxFvnSZV47pXovghrRmI26anNRRMT9F8t9aI)
 
 ## 注意事項
 - 本品はリポバッテリーを使用しています。リポバッテリーには発火等の危険性があるため十分に注意してご使用ください。
