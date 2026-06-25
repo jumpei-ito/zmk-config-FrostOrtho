@@ -74,7 +74,7 @@
         layers = <5>; // 縦横スクロールレイヤー
         input-processors = <
             // &scroll_runtime_input_processor
-            &zip_scroll_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT) // スクロール方向反転(X/Y両軸)
+            &zip_scroll_transform (INPUT_TRANSFORM_X_INVERT) // スクロール方向反転(X軸のみ、縦は natural: 上→上)
             &zip_xy_to_scroll_mapper
             &zip_scroll_x_scaler 1 50 // X軸スクロール量1/50倍
             &zip_scroll_y_scaler 1 50 // Y軸スクロール量1/50倍
