@@ -76,8 +76,8 @@
             // &scroll_runtime_input_processor
             &zip_scroll_transform (INPUT_TRANSFORM_X_INVERT) // スクロール方向反転(X軸のみ、縦は通常方向)
             &zip_xy_to_scroll_mapper
-            &zip_scroll_x_scaler 1 20 // X軸スクロール量1/20倍
-            &zip_scroll_y_scaler 1 20 // Y軸スクロール量1/20倍
+            &zip_scroll_x_scaler 1 50 // X軸スクロール量1/50倍
+            &zip_scroll_y_scaler 1 50 // Y軸スクロール量1/50倍
         >;
     };
     scroller_x {
@@ -85,8 +85,8 @@
         input-processors = <
             &zip_scroll_transform 0 // 変換なし(X_INVERT解除でX軸方向反転)
             &zip_xy_to_scroll_mapper
-            &zip_scroll_x_scaler 1 20 // X軸スクロール量1/20倍
-            &zip_scroll_y_scaler 0 20 // Y軸スクロール量0/20倍(無効)
+            &zip_scroll_x_scaler 1 50 // X軸スクロール量1/50倍
+            &zip_scroll_y_scaler 0 50 // Y軸スクロール量0/50倍(無効)
         >;
     };
 };
