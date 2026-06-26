@@ -74,8 +74,7 @@
         layers = <5>; // 縦横スクロールレイヤー
         input-processors = <
             // &scroll_runtime_input_processor
-            &zip_xy_transform INPUT_TRANSFORM_X_INVERT // X軸入力反転 (mapper 前段で REL_X に作用)
-            &zip_xy_transform INPUT_TRANSFORM_Y_INVERT // Y軸入力反転 → ball up → page up
+            &zip_xy_transform INPUT_TRANSFORM_Y_INVERT // Y軸のみ反転 (縦: ball up → page up / 横: 元の方向のまま)
             &zip_xy_to_scroll_mapper
             &zip_scroll_x_scaler 1 50 // X軸スクロール量1/50倍
             &zip_scroll_y_scaler 1 50 // Y軸スクロール量1/50倍
